@@ -15,7 +15,7 @@ class TrainItem extends StatelessWidget {
         color: Colors.grey,
       ),
       child: Row(
-        children: [Text('Traino $trainNumber')],
+        children: [Text('Treino $trainNumber')],
       ),
     );
   }

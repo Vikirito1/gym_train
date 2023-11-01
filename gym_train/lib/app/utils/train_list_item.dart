@@ -32,7 +32,7 @@ class TrainListItem extends StatelessWidget {
                       style: TextStyle(fontSize: 20, color: Colors.white))
                 ],
               )),
-          Container(
+          SizedBox(
             width: 48,
             height: 48,
             child: IconButton(

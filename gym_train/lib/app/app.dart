@@ -1,6 +1,5 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
+import 'package:gym_train/app/controllers/pages_view_controller.dart';
 import 'package:gym_train/app/modules/train_planner.dart';
 
 class App extends StatelessWidget {
@@ -18,7 +17,7 @@ class App extends StatelessWidget {
             backgroundColor: black,
           )),
       initialRoute: '/',
-      routes: {TrainPlanner.route: (context) => TrainPlanner()},
+      routes: {PagesViewController.route: (context) => PagesViewController()},
     );
   }
 }
