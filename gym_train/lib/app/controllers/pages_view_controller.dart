@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:gym_train/app/modules/train_planner.dart';
-import 'package:gym_train/app/pages/home_page.dart';
+import 'package:gym_train/app/views/train_planner_page.dart';
+import 'package:gym_train/app/views/home_page.dart';
 
 class PagesViewController extends StatefulWidget {
   const PagesViewController({super.key});
@@ -43,7 +43,7 @@ class _PagesViewControllerState extends State<PagesViewController> {
         }),
         children: const [
           HomePage(),
-          TrainPlanner(),
+          TrainPlannerPage(),
         ],
       ),
       bottomNavigationBar: NavigationBar(
