@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:gym_train/app/controllers/pages_view_controller.dart';
-import 'package:gym_train/app/views/train_planner_page.dart';
 
 class App extends StatelessWidget {
   const App({Key? key}) : super(key: key);
