@@ -17,9 +17,10 @@ class _HomePageState extends State<HomePage> {
       persistentFooterAlignment: AlignmentDirectional.center,
       body: Center(
         child: Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ElevatedButton(
                     onPressed: null,
@@ -32,6 +33,7 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
             Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ElevatedButton(
                     onPressed: null,

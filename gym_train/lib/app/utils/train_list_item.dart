@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 class TrainListItem extends StatelessWidget {
@@ -15,7 +13,7 @@ class TrainListItem extends StatelessWidget {
         borderRadius: BorderRadius.circular(12),
         color: Colors.grey,
       ),
-      height: 80,
+      //height: 80,
       child: Row(
         children: [
           Container(
